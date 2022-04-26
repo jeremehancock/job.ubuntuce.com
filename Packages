@@ -1,0 +1,74 @@
+Package: dnsminder
+Version: 0.0.4
+Architecture: all
+Maintainer: Jereme Hancock <support@ubuntuce.com>
+Installed-Size: 51.7
+Depends: zenity, resolvconf
+Filename: ./dnsminder_0.0.4_all.deb
+Size: 16620
+MD5sum: 9110fd841424e38d4c8448f9d7685343
+SHA1: 01241b805f89b1991bbc81db26b895405df1a192
+SHA256: dc29ce87ccd403b7d9537f8ef4225e903dac5fddd99f8d9f18a6ff3c522f11a3
+Section: web
+Priority: optional
+Description: DNS Minder
+
+Package: hostminder
+Version: 0.0.6
+Architecture: all
+Maintainer: Jereme Hancock <support@ubuntuce.com>
+Installed-Size: 51.7
+Depends: zenity
+Filename: ./hostminder_0.0.6_all.deb
+Size: 10256
+MD5sum: 1f6415cb7fddc8614fa4e47cff989fa4
+SHA1: 11f83a7ee5415a0002bf5f7db1823556261e3bc8
+SHA256: 1e8686da997f2454b0ffb1bb842b6a0d2a199c67f8d43320f5ab0ca0bb138ed8
+Section: web
+Priority: optional
+Description: Host Minder
+
+Package: presenter-by-worship-tools
+Version: 0.0.6
+Architecture: all
+Maintainer: Jereme Hancock <support@ubuntuce.com>
+Installed-Size: 139000
+Depends: zenity, curl, jq, wget, libfuse2
+Filename: ./presenter-by-worship-tools_0.0.6_all.deb
+Size: 8812
+MD5sum: 89700d1fb8d8622e83492f685a704598
+SHA1: dc421c162b2b8d9ab640fc38db60d9aa843f0629
+SHA256: bb8487867a441dde68bf94fa3f90e4fe4ed85495143f2d65ee5ffa68f311ace2
+Section: web
+Priority: optional
+Description: Presenter by WorshipTools
+
+Package: ubuntu-ce-wallpapers
+Version: 0.0.2
+Architecture: all
+Maintainer: Jereme Hancock <support@ubuntuce.com>
+Installed-Size: 12900
+Filename: ./ubuntu-ce-wallpapers_0.0.2_all.deb
+Size: 12764024
+MD5sum: 16c4a88830ba07b62fae9563762c20bf
+SHA1: 5b34355d4eb365234576d732b89169094b2ef7b2
+SHA256: 16122a1364eaf077dbf7d9dfd32d2af852045f1f12946eb03b3375a5b8157e40
+Section: x11
+Priority: optional
+Description: Christian Wallpapers for Ubuntu CE
+
+Package: ubuntu-ce-welcome
+Version: 0.0.8
+Architecture: all
+Maintainer: Jereme Hancock <support@ubuntuce.com>
+Installed-Size: 1300
+Depends: gambas3-runtime, gambas3-gb-gtk3-wayland, gambas3-gb-gtk3-x11, gambas3-gb-gui, gambas3-gb-form, hostminder, dnsminder
+Filename: ./ubuntu-ce-welcome_0.0.8_all.deb
+Size: 4386700
+MD5sum: ac8bf9909ca76d28e23f66e184260ceb
+SHA1: d534d000732274f2b2acaf7323f71e1c0f92ae02
+SHA256: e3cce9535c22026a886cb2c56053e89b2ea459fc08c26c9498f3fad463224236
+Section: system
+Priority: optional
+Description: Welcome to UbuntuCE
+
