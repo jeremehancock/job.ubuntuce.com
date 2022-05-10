@@ -13,6 +13,25 @@ Section: web
 Priority: optional
 Description: DNS Minder
 
+Package: freeshow
+Version: 0.3.2
+Architecture: amd64
+Maintainer: Kristoffer Vassbø <kristoffer@vassbo.net>
+Installed-Size: 277328
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libappindicator3-1, libsecret-1-0
+Filename: ./freeshow_0.3.2_amd64.deb
+Size: 71219336
+MD5sum: 9bafd9812c958200dc05574e32d896ec
+SHA1: d45570504f66f40576a578b8dedc296d5e98e7b7
+SHA256: 062ed19b83001e26686b2de4310b1e1b1cd5c7f86074594f90db4fc21d372b7b
+Section: default
+Priority: extra
+Homepage: https://github.com/vassbo/freeshow#readme
+Description:
+  An application for showing song lyrics and more for free!
+License: GPL-3.0
+Vendor: Kristoffer Vassbø <kristoffer@vassbo.net>
+
 Package: hostminder
 Version: 0.0.6
 Architecture: all
