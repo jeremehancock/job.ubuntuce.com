@@ -152,6 +152,21 @@ Priority: optional
 Description: Welcome to UbuntuCE
 
 Package: ubuntu-ce-welcome
+Version: 0.0.14
+Architecture: all
+Maintainer: Jereme Hancock <support@ubuntuce.com>
+Installed-Size: 1300
+Depends: gambas3-runtime, gambas3-gb-gtk3-wayland, gambas3-gb-gtk3-x11, gambas3-gb-gui, gambas3-gb-form, hostminder, dnsminder, ubuntu-ce-parental-controls, timekpr-next, freeshow
+Filename: ./ubuntu-ce-welcome_0.0.14_all.deb
+Size: 4821640
+MD5sum: 4995cd4f123d590a4c1f3319f2c9e1b4
+SHA1: 242d12c35d0beace31dd4664e7aee752f842a90d
+SHA256: aab9d89f30eeb680711d1361989455f002d4724a4d23bdc1de5638a147fb12e7
+Section: system
+Priority: optional
+Description: Welcome to UbuntuCE
+
+Package: ubuntu-ce-welcome
 Version: 0.0.9
 Architecture: all
 Maintainer: Jereme Hancock <support@ubuntuce.com>
