@@ -62,20 +62,6 @@ Section: web
 Priority: optional
 Description: Presenter by WorshipTools
 
-Package: ubuntu-ce-branding
-Version: 0.0.3
-Architecture: all
-Maintainer: Jereme Hancock <support@ubuntuce.com>
-Installed-Size: 360
-Filename: ./ubuntu-ce-branding_0.0.3_all.deb
-Size: 109672
-MD5sum: 9b0fbeca7fdfc5dcd82db5ba1708d8d2
-SHA1: 96fbbe1d1d52740f3cc1543449f1c53fafa6ca54
-SHA256: 62d9c53d8aefdccfe58aa8162b85af75046f69dd1d0df3b1f64cdfead02e2e5b
-Section: x11
-Priority: optional
-Description: UbuntuCE Branding
-
 Package: ubuntu-ce-parental-controls
 Version: 0.0.3
 Architecture: all
@@ -90,23 +76,6 @@ SHA256: 2365625afce019d44f0987921939bc91e58052ee384eddf2a427562fc2c2704a
 Section: web
 Priority: optional
 Description: Parental Controls
-
-Package: ubuntu-ce-software-center
-Version: 0.0.41-0ubuntu1
-Architecture: all
-Maintainer: Jereme Hancock <support@ubuntuce.com>
-Installed-Size: 546
-Depends: gambas3-runtime (>= 3.16), gambas3-runtime (<< 3.99.0), gambas3-gb-image (>= 3.16), gambas3-gb-image (<< 3.99.0), gambas3-gb-form (>= 3.16), gambas3-gb-form (<< 3.99.0), gambas3-gb-term (>= 3.16), gambas3-gb-term (<< 3.99.0), gambas3-gb-form-terminal (>= 3.16), gambas3-gb-form-terminal (<< 3.99.0), snapd, flatpak, gambas3-gb-jit, gnome-terminal, curl, wget, gambas3-gb-gui, gambas3-gb-gtk3-wayland, gambas3-gb-gtk3-x11
-Filename: ./ubuntu-ce-software-center_0.0.41-0ubuntu1_all.deb
-Size: 423970
-MD5sum: 34be75f769e73a00885aeb16ffd43fe3
-SHA1: ac59a192c52d700159511d20c09e2e291c04400c
-SHA256: 0a72068bbc1532ce832b7d79b91859e35ea89ba0da5db4e71399bf6654638579
-Section: contrib/utils
-Priority: optional
-Description: Linux for Christians
- Linux for Christians
- This program is written in Gambas.
 
 Package: ubuntu-ce-wallpapers
 Version: 0.0.3
@@ -123,19 +92,17 @@ Priority: optional
 Description: UbuntuCE Wallpapers
 
 Package: ubuntu-ce-welcome
-Version: 0.0.58-0ubuntu1
+Version: 0.0.16
 Architecture: all
 Maintainer: Jereme Hancock <support@ubuntuce.com>
-Installed-Size: 6078
-Depends: gambas3-runtime (>= 3.16), gambas3-runtime (<< 3.99.0), gambas3-gb-image (>= 3.16), gambas3-gb-image (<< 3.99.0), gambas3-gb-form (>= 3.16), gambas3-gb-form (<< 3.99.0), gambas3-gb-gtk3-wayland, gambas3-gb-gtk3-x11, gambas3-gb-gui, hostminder, dnsminder, ubuntu-ce-software-center
-Filename: ./ubuntu-ce-welcome_0.0.58-0ubuntu1_all.deb
-Size: 4799402
-MD5sum: cd203976dc20cc99c5e85e4afc1ed94d
-SHA1: dad3b3898056b0d287ae351272a4442cb385f043
-SHA256: 57069d1d0ccb812a499d659080f657fa02ed21ace0d966d5f7a0324b8a598a5d
-Section: contrib/utils
+Installed-Size: 1300
+Depends: gambas3-runtime, gambas3-gb-gtk3-wayland, gambas3-gb-gtk3-x11, gambas3-gb-gui, gambas3-gb-form, hostminder, dnsminder, ubuntu-ce-parental-controls, timekpr-next, freeshow
+Filename: ./ubuntu-ce-welcome_0.0.16_all.deb
+Size: 4821720
+MD5sum: 51b4f1162df49f66f4ec0072aed8d407
+SHA1: 7241c63a97dfa54e6fa3a59c43b68e415e9fe38e
+SHA256: cdffc3b89cf215705dae72ff5949a5ad30b34315780812cbfe22df627df5dc88
+Section: system
 Priority: optional
-Description: Missing description.
- Missing description.
- This program is written in Gambas.
+Description: Welcome to UbuntuCE
 
