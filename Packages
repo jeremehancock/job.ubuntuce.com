@@ -1,14 +1,14 @@
 Package: dnsminder
-Version: 0.0.4
+Version: 0.0.6
 Architecture: all
 Maintainer: Jereme Hancock <support@ubuntuce.com>
 Installed-Size: 51.7
 Depends: zenity, resolvconf
-Filename: ./dnsminder_0.0.4_all.deb
-Size: 16620
-MD5sum: 9110fd841424e38d4c8448f9d7685343
-SHA1: 01241b805f89b1991bbc81db26b895405df1a192
-SHA256: dc29ce87ccd403b7d9537f8ef4225e903dac5fddd99f8d9f18a6ff3c522f11a3
+Filename: ./dnsminder_0.0.6_all.deb
+Size: 16978
+MD5sum: ef66a50a79346126e3539428f3e04da2
+SHA1: 82f11bbf9fd884aac264e0a6174ba693e811e873
+SHA256: af8951bf2e00e6304e0ff43896ce7a53a8fd0b6dbf993bf7ae23d483d042f979
 Section: web
 Priority: optional
 Description: DNS Minder
@@ -33,16 +33,16 @@ License: GPL-3.0
 Vendor: Kristoffer Vassbø <kristoffer@vassbo.net>
 
 Package: hostminder
-Version: 0.0.6
+Version: 0.0.7
 Architecture: all
 Maintainer: Jereme Hancock <support@ubuntuce.com>
 Installed-Size: 51.7
-Depends: zenity
-Filename: ./hostminder_0.0.6_all.deb
-Size: 10256
-MD5sum: 1f6415cb7fddc8614fa4e47cff989fa4
-SHA1: 11f83a7ee5415a0002bf5f7db1823556261e3bc8
-SHA256: 1e8686da997f2454b0ffb1bb842b6a0d2a199c67f8d43320f5ab0ca0bb138ed8
+Depends: zenity, gedit
+Filename: ./hostminder_0.0.7_all.deb
+Size: 10544
+MD5sum: 0e12737359d22e8d5add1c383fc03552
+SHA1: 5a5f782c625174a88452958e5983710c0f49ff80
+SHA256: 40ca510dcb05ebf8bc0cdcf8bacbb2781216fa39f1712c99a2af0a16aa64f7e4
 Section: web
 Priority: optional
 Description: Host Minder
@@ -62,6 +62,20 @@ Section: web
 Priority: optional
 Description: Presenter by WorshipTools
 
+Package: ubuntu-ce-branding
+Version: 0.0.8
+Architecture: all
+Maintainer: Jereme Hancock <support@ubuntuce.com>
+Installed-Size: 360
+Filename: ./ubuntu-ce-branding_0.0.8_all.deb
+Size: 109814
+MD5sum: c8a9ebcbc5516672e7dab633fccad1da
+SHA1: af42bd02d92c7112a014d9b640735eb4d9feea54
+SHA256: bb4594efd75b6459041388cd625e910a897f0c46cfddecfe00afda27434ad056
+Section: x11
+Priority: optional
+Description: UbuntuCE Branding
+
 Package: ubuntu-ce-parental-controls
 Version: 0.0.3
 Architecture: all
@@ -76,6 +90,23 @@ SHA256: 2365625afce019d44f0987921939bc91e58052ee384eddf2a427562fc2c2704a
 Section: web
 Priority: optional
 Description: Parental Controls
+
+Package: ubuntu-ce-software-center
+Version: 0.0.51-0ubuntu1
+Architecture: all
+Maintainer: Jereme Hancock <support@ubuntuce.com>
+Installed-Size: 566
+Depends: gambas3-runtime (>= 3.16), gambas3-runtime (<< 3.99.0), gambas3-gb-image (>= 3.16), gambas3-gb-image (<< 3.99.0), gambas3-gb-form (>= 3.16), gambas3-gb-form (<< 3.99.0), gambas3-gb-term (>= 3.16), gambas3-gb-term (<< 3.99.0), gambas3-gb-form-terminal (>= 3.16), gambas3-gb-form-terminal (<< 3.99.0), snapd, flatpak, gambas3-gb-jit, gnome-terminal, curl, wget, gambas3-gb-gui, gambas3-gb-gtk3-wayland, gambas3-gb-gtk3-x11
+Filename: ./ubuntu-ce-software-center_0.0.51-0ubuntu1_all.deb
+Size: 427784
+MD5sum: d2c3eb791dc1e07278103b0d444ccb1a
+SHA1: 36a277f30c633f493fffe0df5313e793b611a7aa
+SHA256: 133581eb3bee170d4f27d29ab0b797455904182e1a960b05e541a32a0e36d6a2
+Section: contrib/utils
+Priority: optional
+Description: Linux for Christians
+ Linux for Christians
+ This program is written in Gambas.
 
 Package: ubuntu-ce-wallpapers
 Version: 0.0.3
@@ -92,17 +123,19 @@ Priority: optional
 Description: UbuntuCE Wallpapers
 
 Package: ubuntu-ce-welcome
-Version: 0.0.16
+Version: 0.0.62-0ubuntu1
 Architecture: all
 Maintainer: Jereme Hancock <support@ubuntuce.com>
-Installed-Size: 1300
-Depends: gambas3-runtime, gambas3-gb-gtk3-wayland, gambas3-gb-gtk3-x11, gambas3-gb-gui, gambas3-gb-form, hostminder, dnsminder, ubuntu-ce-parental-controls, timekpr-next, freeshow
-Filename: ./ubuntu-ce-welcome_0.0.16_all.deb
-Size: 4821720
-MD5sum: 51b4f1162df49f66f4ec0072aed8d407
-SHA1: 7241c63a97dfa54e6fa3a59c43b68e415e9fe38e
-SHA256: cdffc3b89cf215705dae72ff5949a5ad30b34315780812cbfe22df627df5dc88
-Section: system
+Installed-Size: 6127
+Depends: gambas3-runtime (>= 3.16), gambas3-runtime (<< 3.99.0), gambas3-gb-form (>= 3.16), gambas3-gb-form (<< 3.99.0), gambas3-gb-image (>= 3.16), gambas3-gb-image (<< 3.99.0), gambas3-gb-gtk3-wayland, gambas3-gb-gtk3-x11, gambas3-gb-gui, hostminder, dnsminder, ubuntu-ce-software-center
+Filename: ./ubuntu-ce-welcome_0.0.62-0ubuntu1_all.deb
+Size: 4842490
+MD5sum: ef77337b60b120ff5e9da7935e6a8249
+SHA1: 7e77b45f20f723efd6a73c8768215ec0d32a1bde
+SHA256: 0991f9ea8094b81fce7284dabef7b8702a3abfb8b2e19c70c3709b4e6f037866
+Section: contrib/utils
 Priority: optional
-Description: Welcome to UbuntuCE
+Description: Linux for Christians
+ Linux for Christians
+ This program is written in Gambas.
 
