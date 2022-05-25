@@ -54,10 +54,10 @@ Maintainer: Jereme Hancock <support@ubuntuce.com>
 Installed-Size: 175
 Depends: chromium-browser
 Filename: ./netbible_0.0.1_all.deb
-Size: 5370
-MD5sum: bdce76e382c91a800a411e4c90a7a301
-SHA1: ba00d41b3992f18837f81805bbc2b26b227042a9
-SHA256: 72bc478bad171628d9562028f91a6341878e53ca6407ca65e0fea95205315feb
+Size: 5512
+MD5sum: 3c99fa2456f8c66c65597fa4924a0cb6
+SHA1: a8bb001a6b5b567f1399f27024364728e559996c
+SHA256: 510f1a11351933234e4772975587d10b246250557da84622744a9a3b516ff1a1
 Section: web
 Priority: optional
 Description: NET Bible
